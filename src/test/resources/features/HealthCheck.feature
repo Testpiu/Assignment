@@ -4,7 +4,7 @@
  
   Background: Navigation to the URL
     Given User navigated to the home application url
-    
+     
   @t1
   Scenario: User navigate to the home page url and validate to the home page url with given url
      When user validate application home page url
@@ -27,9 +27,9 @@
  @t4 
    Scenario: User navigated to home page url and validate Search functionality
      When User entered text in searchbox "T-shirt"
-     Then User validate autosuggestion text "T-shirts > Faded Short Sleeve T-shirts"
+     Then User validate autosuggestion text "T-shirts>Faded Short Sleeve T-shirt"
 
-@Applicationsocialmediahandlesvalidation    
+@t5 
 		Scenario: Application social media handles validation    
 		When User clicked on twitter logo
 		And User Validate the url opened on a new tab contains "seleniumfrmwrk"
