@@ -1,0 +1,38 @@
+2022-Apr-09 22:50:18 pm [main] INFO  core.WebDriverFactory - Chrome Browser invoked
+2022-Apr-09 22:50:18 pm [main] INFO  core.WebDriverFactory - Driver maximized and implicit time out set to 20 seconds
+2022-Apr-09 22:50:18 pm [main] INFO  stepdefs.StepDefs - Browser invoked.
+2022-Apr-09 22:50:20 pm [main] INFO  core.WebDriverFactory - Browser navigated to the url: https://automationpractice.com
+2022-Apr-09 22:50:20 pm [main] INFO  stepdefs.StepDefs - Browser navigated to URL: https://automationpractice.com
+2022-Apr-09 22:50:52 pm [main] INFO  core.WebDriverFactory - Driver closed
+2022-Apr-09 22:50:55 pm [main] INFO  core.WebDriverFactory - Chrome Browser invoked
+2022-Apr-09 22:50:55 pm [main] INFO  core.WebDriverFactory - Driver maximized and implicit time out set to 20 seconds
+2022-Apr-09 22:50:55 pm [main] INFO  stepdefs.StepDefs - Browser invoked.
+2022-Apr-09 22:51:04 pm [main] INFO  core.WebDriverFactory - Browser navigated to the url: https://automationpractice.com
+2022-Apr-09 22:51:04 pm [main] INFO  stepdefs.StepDefs - Browser navigated to URL: https://automationpractice.com
+2022-Apr-09 22:51:04 pm [main] INFO  pageobjectmodel.CmnPageObjects - Logo is Display :> true
+2022-Apr-09 22:51:05 pm [main] INFO  pageobjectmodel.CmnPageObjects - User successfully assert width and height 350 and 99
+2022-Apr-09 22:51:05 pm [main] INFO  pageobjectmodel.CmnPageObjects - User successfully assert height and width 99 and 350
+2022-Apr-09 22:51:05 pm [main] INFO  core.WebDriverFactory - Driver closed
+2022-Apr-09 22:51:08 pm [main] INFO  core.WebDriverFactory - Chrome Browser invoked
+2022-Apr-09 22:51:08 pm [main] INFO  core.WebDriverFactory - Driver maximized and implicit time out set to 20 seconds
+2022-Apr-09 22:51:08 pm [main] INFO  stepdefs.StepDefs - Browser invoked.
+2022-Apr-09 22:51:17 pm [main] INFO  core.WebDriverFactory - Browser navigated to the url: https://automationpractice.com
+2022-Apr-09 22:51:17 pm [main] INFO  stepdefs.StepDefs - Browser navigated to URL: https://automationpractice.com
+2022-Apr-09 22:51:18 pm [main] INFO  pageobjectmodel.CmnPageObjects - Product list: 
+2022-Apr-09 22:51:18 pm [main] INFO  pageobjectmodel.CmnPageObjects -          WOMEN
+2022-Apr-09 22:51:18 pm [main] INFO  pageobjectmodel.CmnPageObjects -          DRESSES
+2022-Apr-09 22:51:18 pm [main] INFO  pageobjectmodel.CmnPageObjects -          T-SHIRTS
+2022-Apr-09 22:51:18 pm [main] INFO  pageobjectmodel.CmnPageObjects - Count of Categories is:3
+2022-Apr-09 22:51:18 pm [main] INFO  core.WebDriverFactory - Driver closed
+2022-Apr-09 22:51:20 pm [main] INFO  core.WebDriverFactory - Chrome Browser invoked
+2022-Apr-09 22:51:20 pm [main] INFO  core.WebDriverFactory - Driver maximized and implicit time out set to 20 seconds
+2022-Apr-09 22:51:20 pm [main] INFO  stepdefs.StepDefs - Browser invoked.
+2022-Apr-09 22:51:23 pm [main] INFO  core.WebDriverFactory - Browser navigated to the url: https://automationpractice.com
+2022-Apr-09 22:51:23 pm [main] INFO  stepdefs.StepDefs - Browser navigated to URL: https://automationpractice.com
+2022-Apr-09 22:51:44 pm [main] INFO  core.WebDriverFactory - Driver closed
+2022-Apr-09 22:51:46 pm [main] INFO  core.WebDriverFactory - Chrome Browser invoked
+2022-Apr-09 22:51:47 pm [main] INFO  core.WebDriverFactory - Driver maximized and implicit time out set to 20 seconds
+2022-Apr-09 22:51:47 pm [main] INFO  stepdefs.StepDefs - Browser invoked.
+2022-Apr-09 22:51:49 pm [main] INFO  core.WebDriverFactory - Browser navigated to the url: https://automationpractice.com
+2022-Apr-09 22:51:49 pm [main] INFO  stepdefs.StepDefs - Browser navigated to URL: https://automationpractice.com
+2022-Apr-09 22:52:09 pm [main] INFO  core.WebDriverFactory - Driver closed

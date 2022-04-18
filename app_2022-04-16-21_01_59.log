@@ -1,0 +1,7 @@
+2022-Apr-16 21:02:33 pm [main] INFO  core.WebDriverFactory - Chrome Browser invoked
+2022-Apr-16 21:02:33 pm [main] INFO  core.WebDriverFactory - Driver maximized and implicit time out set to 20 seconds
+2022-Apr-16 21:02:34 pm [main] INFO  stepdefs.StepDefs - Browser invoked.
+2022-Apr-16 21:02:48 pm [main] INFO  core.WebDriverFactory - Browser navigated to the url: https://automationpractice.com
+2022-Apr-16 21:02:48 pm [main] INFO  stepdefs.StepDefs - Browser navigated to URL: https://automationpractice.com
+2022-Apr-16 21:02:51 pm [main] INFO  pageobjectmodel.CmnPageObjects - Value entered in search box: Faded
+2022-Apr-16 21:03:13 pm [main] INFO  core.WebDriverFactory - Driver closed

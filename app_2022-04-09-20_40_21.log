@@ -1,0 +1,38 @@
+2022-Apr-09 20:40:25 pm [main] INFO  core.WebDriverFactory - Chrome Browser invoked
+2022-Apr-09 20:40:25 pm [main] INFO  core.WebDriverFactory - Driver maximized and implicit time out set to 20 seconds
+2022-Apr-09 20:40:25 pm [main] INFO  stepdefs.StepDefs - Browser invoked.
+2022-Apr-09 20:40:27 pm [main] INFO  core.WebDriverFactory - Browser navigated to the url: https://automationpractice.com
+2022-Apr-09 20:40:27 pm [main] INFO  stepdefs.StepDefs - Browser navigated to URL: https://automationpractice.com
+2022-Apr-09 20:41:07 pm [main] INFO  core.WebDriverFactory - Driver closed
+2022-Apr-09 20:41:09 pm [main] INFO  core.WebDriverFactory - Chrome Browser invoked
+2022-Apr-09 20:41:10 pm [main] INFO  core.WebDriverFactory - Driver maximized and implicit time out set to 20 seconds
+2022-Apr-09 20:41:10 pm [main] INFO  stepdefs.StepDefs - Browser invoked.
+2022-Apr-09 20:41:16 pm [main] INFO  core.WebDriverFactory - Browser navigated to the url: https://automationpractice.com
+2022-Apr-09 20:41:16 pm [main] INFO  stepdefs.StepDefs - Browser navigated to URL: https://automationpractice.com
+2022-Apr-09 20:41:58 pm [main] INFO  core.WebDriverFactory - Driver closed
+2022-Apr-09 20:42:04 pm [main] INFO  core.WebDriverFactory - Chrome Browser invoked
+2022-Apr-09 20:42:04 pm [main] INFO  core.WebDriverFactory - Driver maximized and implicit time out set to 20 seconds
+2022-Apr-09 20:42:04 pm [main] INFO  stepdefs.StepDefs - Browser invoked.
+2022-Apr-09 20:42:26 pm [main] INFO  core.WebDriverFactory - Browser navigated to the url: https://automationpractice.com
+2022-Apr-09 20:42:26 pm [main] INFO  stepdefs.StepDefs - Browser navigated to URL: https://automationpractice.com
+2022-Apr-09 20:42:26 pm [main] INFO  pageobjectmodel.CmnPageObjects - Product list: 
+2022-Apr-09 20:42:26 pm [main] INFO  pageobjectmodel.CmnPageObjects -          WOMEN
+2022-Apr-09 20:42:26 pm [main] INFO  pageobjectmodel.CmnPageObjects -          DRESSES
+2022-Apr-09 20:42:26 pm [main] INFO  pageobjectmodel.CmnPageObjects -          T-SHIRTS
+2022-Apr-09 20:42:26 pm [main] INFO  pageobjectmodel.CmnPageObjects - Count of Categories is:3
+2022-Apr-09 20:42:28 pm [main] INFO  core.WebDriverFactory - Driver closed
+2022-Apr-09 20:42:32 pm [main] INFO  core.WebDriverFactory - Chrome Browser invoked
+2022-Apr-09 20:42:32 pm [main] INFO  core.WebDriverFactory - Driver maximized and implicit time out set to 20 seconds
+2022-Apr-09 20:42:32 pm [main] INFO  stepdefs.StepDefs - Browser invoked.
+2022-Apr-09 20:42:35 pm [main] INFO  core.WebDriverFactory - Browser navigated to the url: https://automationpractice.com
+2022-Apr-09 20:42:35 pm [main] INFO  stepdefs.StepDefs - Browser navigated to URL: https://automationpractice.com
+2022-Apr-09 20:42:56 pm [main] INFO  core.WebDriverFactory - Driver closed
+2022-Apr-09 20:43:00 pm [main] INFO  core.WebDriverFactory - Chrome Browser invoked
+2022-Apr-09 20:43:00 pm [main] INFO  core.WebDriverFactory - Driver maximized and implicit time out set to 20 seconds
+2022-Apr-09 20:43:00 pm [main] INFO  stepdefs.StepDefs - Browser invoked.
+2022-Apr-09 20:43:23 pm [main] INFO  core.WebDriverFactory - Browser navigated to the url: https://automationpractice.com
+2022-Apr-09 20:43:23 pm [main] INFO  stepdefs.StepDefs - Browser navigated to URL: https://automationpractice.com
+2022-Apr-09 20:43:24 pm [main] INFO  pageobjectmodel.CmnPageObjects - Clicked on Social Media Handle: twitter
+2022-Apr-09 20:43:32 pm [main] INFO  pageobjectmodel.CmnPageObjects - Child1 window title is - 
+2022-Apr-09 20:43:44 pm [main] INFO  pageobjectmodel.CmnPageObjects - Page Name matched:Selenium Framework
+2022-Apr-09 20:43:45 pm [main] INFO  core.WebDriverFactory - Driver closed

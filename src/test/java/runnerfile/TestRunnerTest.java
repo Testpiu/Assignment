@@ -9,8 +9,8 @@ import org.junit.runner.RunWith;
 	@RunWith(Cucumber.class)
 	@CucumberOptions(
 	        features="classpath:features",
-	        glue="Assignment.stepdefs", 
-	        tags="", 
+	        glue="stepdefs", 
+	        tags="@t4", 
 	        plugin = {"pretty",
 	            "html:target/html/htmlreport.html",
 	            "json:target/json/file.json",
@@ -23,5 +23,3 @@ import org.junit.runner.RunWith;
 	public class TestRunnerTest {
 
 	}
-
-

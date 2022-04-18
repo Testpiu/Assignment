@@ -16,7 +16,6 @@ import io.cucumber.java.Scenario;
 
 public class CmnPageObjects {
 
-
 	private static final Logger logger = LogManager.getLogger( CmnPageObjects.class);
 	WebDriver driver;
 	Scenario scn;
@@ -120,7 +119,7 @@ public class CmnPageObjects {
 //--User validate autosuggestion text "T-shirts > Faded Short Sleeve T-shirts"--	 
 
 		 public void ValidateAutosuggestionText() {
-		 WebDriverWait wait = new WebDriverWait(driver, 20);
+		 WebDriverWait wait = new WebDriverWait(driver, 30);
      	 wait.until(ExpectedConditions.visibilityOfElementLocated(Auto_Text));
 		 String Autotext = driver.findElement(Auto_Text).getText();
 		 Assert.assertEquals(Autotext.contains("T-shirt"),true);
@@ -131,8 +130,3 @@ public class CmnPageObjects {
 
 
 }
-
-
-
-
-

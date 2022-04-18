@@ -36,14 +36,13 @@ public class StepDefs
 	   	 @Before
 	    	public void setUp(Scenario scn) throws Exception{
 	   		    this.scn=scn;
-	   	        driver = new ChromeDriver();
-	   	        driver.manage().window().maximize();
-	   	        driver.manage().timeouts().implicitlyWait(implicit_wait_timeout_in_sec, TimeUnit.SECONDS);
+	   		     String browserName = WebDriverFactory.getBrowserName();
+	   		    driver = WebDriverFactory.getWebDriverForBrowser(browserName);
 	   	        scn.log("Browser Invoked");
 	   	        logger.info("Browser invoked.");
 	  
 	        cmnPageObjects = new CmnPageObjects(driver,scn);
-	        twitterPgObj = new TwitterPgObj();  
+	        twitterPgObj = new TwitterPgObj(driver,scn);  
 	   	 }
 
 
@@ -67,19 +66,16 @@ public class StepDefs
 //--User navigated to the home application url--
          
 @Given("User navigated to the home application url")
-public void user_navigated_to_the_home_application_url() {
+public void User_navigated_to_the_home_application_url() {
     WebDriverFactory.navigateToTheUrl(base_url);
     scn.log("Browser navigated to URL: " + base_url);
     logger.info("Browser navigated to URL: " + base_url);
 }
 
 //--User validate to the home  page application url--
-
-@When("User validate to the home  page application url")
-public void user_navigated_to_the_home_page_application_url() {
-	WebDriverFactory.navigateToTheUrl(base_url);
-    scn.log("Browser navigated to URL: " + base_url);
-	
+//user validate application home page url
+@When("user validate application home page url")
+public void user_validate_application_home_page_url() {
     String expected="My Store";
     cmnPageObjects.validatePageTitleMatch(expected);
 }
@@ -91,16 +87,16 @@ public void user_should_be_redirected_to(String expected_url) {
 	 cmnPageObjects.PageRedirection(expected_url);
 }
 //--User validate  application logo visibility--
-@When("User validate  application logo visibility")
-	public void User_validate_application_logo_visibility(){
+@When("User validate application logo visibility")
+public void user_validate_application_logo_visibility() {
 	cmnPageObjects.validateAppLogo();
 	 scn.log("logo is validated");
 }
 
 //--user validate height and width of logo "99" and "350"--
 
-@When("User validate  application logo visibility")
-public void user_validate_height_width_of_logo(String Height,String Width) {
+@Then("User validate Height & Width of logo {string} and {string}")
+public void user_validate_height_width_of_logo_and(String Height, String Width) {
 	cmnPageObjects.assertingLogoSize(Height, Width);
 }
 //--user fetch product category list--
@@ -139,7 +135,7 @@ public void user_validate_height_width_of_logo(String Height,String Width) {
 	   twitterPgObj.SocialMediaHandle();
 	}
 
-//--User Validate the url opened on a new tab contains "seleniumfrmwrk"--	
+//--User Validate the url opened on a new tab contains "selenium"--	
 
 	@When("User Validate the url opened on a new tab contains {string}")
 	public void user_validate_the_url_opened_on_a_new_tab_contains(String expectedTitle) throws InterruptedException {
@@ -147,7 +143,7 @@ public void user_validate_height_width_of_logo(String Height,String Width) {
 		twitterPgObj.validateTwitterPageTitle(expectedTitle);
   }
 
-//--Validate the twiiter accont name is "Selenium Framework"--	
+//--Validate the twitter account name is "Selenium Framework"--	
 
 	@Then("Validate the twiiter accont name is {string}")
 	public void validate_the_twiiter_accont_name_is(String TwitterAccName) throws InterruptedException {

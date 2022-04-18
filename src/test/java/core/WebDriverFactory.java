@@ -10,7 +10,6 @@ import java.util.Iterator;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
-
 public class WebDriverFactory {
 
 	private static final Logger logger = LogManager.getLogger(WebDriverFactory.class);
@@ -76,5 +75,4 @@ public class WebDriverFactory {
             return browserSentFromCmd;
         }
     }
-
 }

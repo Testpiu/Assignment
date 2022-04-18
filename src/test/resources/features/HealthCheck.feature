@@ -26,7 +26,7 @@
 
  @t4 
    Scenario: User navigated to home page url and validate Search functionality
-     When User entered text in searchbox "T-shirt"
+     When User entered text in searchbox "Feded"
      Then User validate autosuggestion text "T-shirts>Faded Short Sleeve T-shirt"
 
 @t5 

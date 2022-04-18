@@ -2,6 +2,7 @@ package pageobjectmodel;
 
 import java.util.ArrayList;
 
+
 import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
@@ -24,7 +25,8 @@ public class TwitterPgObj {
 	private By Twitter_Handle = By.xpath("//li[@class='twitter']");
 	private By Twitter_Handle_Name = By.xpath("(//span[contains(text(),'Selenium Framework')])[2]");
 
-	public void TwitterPgObj(WebDriver driver, Scenario scn) {
+	public TwitterPgObj(WebDriver driver, Scenario scn)
+	{
 		this.driver = driver;
 		this.scn = scn;
      }
